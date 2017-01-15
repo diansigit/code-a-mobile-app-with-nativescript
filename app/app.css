@@ -1,0 +1,44 @@
+﻿/* General */
+
+
+TextField {
+    margin: 10;
+    padding: 10;
+}
+Button {
+    margin: 10;
+    padding: 10;
+    background-color: orange;
+}
+Image {
+    margin-top: 20;
+    margin-left: 100;
+    margin-right: 100;
+    margin-bottom: 80;
+}
+
+/* Profile view */
+#profile-avatar{
+    margin-left: 20;
+    margin-right: 20;
+    margin-bottom: 20;
+}
+
+
+#profile-fullname{
+    font-size:24; 
+    margin-left:20; 
+    margin-right:20; 
+    color:black;
+}
+
+#profile-login{
+    margin-left:20; 
+    margin-right:20
+}
+
+/* Repos view */
+.title{
+    padding:10
+
+}

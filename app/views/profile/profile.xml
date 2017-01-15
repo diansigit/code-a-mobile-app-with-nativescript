@@ -1,0 +1,17 @@
+<Page loaded="loaded">
+    <Page.actionBar>
+        <ActionBar title="Profile">
+            <ActionBar.actionItems>
+                <actionItem text="Log out" ios.position="right"  tap="onLogout" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout>
+        <Image src="{{ avatar}}" id="profile-avatar"/>
+        <Label text="{{ fullName }}" id="profile-fullname" />
+        <Label text="{{ login }}"  id="profile-login"/>
+        <Button text="Repos" tap="onRepos"/>
+    </StackLayout>
+
+</Page>

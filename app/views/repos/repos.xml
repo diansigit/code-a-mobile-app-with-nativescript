@@ -1,0 +1,18 @@
+<Page loaded="loaded">
+    <Page.actionBar>
+        <ActionBar title="Repos">
+            <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onBackBtn"/>
+            <ActionBar.actionItems>
+                <ActionItem text="Log out" ios.position="right" tap="onLogout"/>
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout>
+        <ListView items="{{ reposArray }}">
+            <ListView.itemTemplate>
+                <Label text="{{ name }}" textWrap="true" class="title"/>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+</Page>

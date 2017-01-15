@@ -1,0 +1,9 @@
+<Page actionBarHidden="true" loaded="loaded">
+    <StackLayout orientation="vertical">
+    <Image src="~/images/repos.png" />
+    <TextField text="{{username}}" hint="Username" id="username"/>
+    <TextField text="{{password}}" hint="Password" secure="true" id="password" />
+
+    <Button text="Sign In" tap="signIn"/>
+    </StackLayout>
+</Page>
