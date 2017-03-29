@@ -1,17 +1,15 @@
-# Intoruction to NativeScript
+# Code a Mobile App With NativeScript
 ## Instructor: [Keyvan Kasaei](https://tutsplus.com/authors/keyvan-kasaei)
 
-NativeScript is a framework for building cross-platform native mobile apps. It allows developers to use Javascript, Typescript or Angular to build apps for IOS & Android.
-Unlike Cordova, which uses WebView for rendering the UI of the app, NativeScript uses the native platform's rendering engine and accesses the Native API, which means that it provides a truly native user experience. 
+NativeScript is a framework for building cross-platform native mobile apps. It allows developers to use Javascript, Typescript or Angular to build apps for IOS & Android. Unlike Cordova, which uses WebView for rendering the UI of the app, NativeScript uses the native platform's rendering engine and accesses the native APIs, so that it provides a truly native user experience. 
 
-In this hort course, Tutsplus Author Keyvan Kasaei will introduce you to Nativescript, and step by step helps you to get started building a simple application, get familier with it's simple workflow and finally we disover why you should consider Nativescript for your next mobile app project.
-
+In this course, Keyvan Kasaei will introduce you to NativeScript, and show you step-by-step how to build a simple application. Along the way you'll learn how to implement a simple app workflow with network requests, an MVVM architecture, and some of the most important NativeScript UI components. By the end, you'll understand why you should consider NativeScript for your next mobile app project.
 
 
 
 ## Source Files Description
 
-This repository contains the a NativeScript example Application written in pure JavaScript and covers various aspects. The app is a mini browser for github. Users will login with their github Credentials and then are taken to Details screen which shows User Profile's Meta Information and fianlly the last screen is the repositories List.
+This repository contains the source code for the course project. The app is a mini browser for GitHub. Users will login with their GitHub credentials and then are taken to **Details** screen which shows user profile meta information. Afterward, they can click through to a list of their repositories.
 
 
 ## Installation Process:
@@ -83,3 +81,10 @@ tns livesync ios --emulator --watch
 -  [Troubleshooting](https://docs.nativescript.org/start/troubleshooting)
 -  [NodeJs](https://nodejs.org/en/) 
 ------
+
+
+These are source files for the Envato Tuts+ course: [Code a Mobile App With NativeScript][published url]
+
+Available on [Envato Tuts+](https://tutsplus.com). Teaching skills to millions worldwide.
+
+[published url]: http://code.tutsplus.com/tutorials/code-a-mobile-app-with-nativescript
